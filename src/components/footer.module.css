@@ -13,6 +13,8 @@
   gap: var(--space-md);
   justify-content: center;
   padding-bottom: var(--space-lg);
+  max-width: 5em;
+  margin: auto;
 }
 
 .blurb {

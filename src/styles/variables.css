@@ -9,9 +9,16 @@
   --black-fade-40: rgba(0, 0, 0, 0.4);
   --grey-90: #232129;
   --grey-50: #78757a;
-  --green-80: #088413;
+  --blue-80: #192122;
+  --blue-05: #dbe0e0;
   --green-50-rgb: 55, 182, 53;
   --white: #ffffff;
+  --purple: rgb(33, 0, 59);
+  --purple-50: rgb(135, 91, 168);
+  --purple-100: rgb(23, 21, 24);
+  --purple-5: rgb(239, 231, 246);
+  --purple-50-rgb: 33, 0, 59;
+  
 
   /* radii */
   --radius-sm: 4px;
@@ -54,15 +61,18 @@
   /* role-based tokens */
 
   /* colors */
-  --primary: var(--green-80);
-  --background: var(--white);
+  --primary: var(--blue-80);
+  --background: var(--blue-05);
   --border: var(--black-fade-5);
 
   /* transitions */
   --transition: box-shadow 0.125s ease-in;
 
   /* shadows */
-  --shadow: 0 4px 12px rgba(var(--green-50-rgb), 0.5);
+  --shadow: 0 4px 12px rgba(var(--purple-50-rgb), 0.5);
+
+    /* shadows */
+    --shadow-15: 0 4px 12px rgba(var(--purple-50-rgb), 0.15);
 
   /* text */
   /* color */

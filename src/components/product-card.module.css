@@ -2,11 +2,23 @@
   max-width: 400px;
   cursor: pointer;
   text-decoration: none;
-  padding-bottom: var(--space-md);
+  padding: var(--space-md);
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  transition: all ease-out 100ms;
+}
+
+.productCardStyle:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-15);
+  border: .1em solid var(--purple-100);
+  border-radius: var(--radius-md);
+  transition: all ease-in 200ms;
 }
 
 .productImageStyle {
-  margin-bottom: var(--space-md);
+  margin: var(--space-lg);
+
 }
 
 .productDetailsStyle {
