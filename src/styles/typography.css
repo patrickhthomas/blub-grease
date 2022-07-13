@@ -8,3 +8,8 @@
     font-family: "Kozuka Gothic";
     src: url("../fonts/KozGoPr6N-Medium.otf");
   }
+
+  @font-face {
+    font-family: "Cinerama";
+    src: url("../fonts/Cinerama.otf");
+  }
