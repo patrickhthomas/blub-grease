@@ -14,6 +14,7 @@
   --green-50-rgb: 55, 182, 53;
   --white: #ffffff;
   --purple: rgb(33, 0, 59);
+  --purple-fade: rgba(33, 0, 59, 0.56);
   --purple-50: rgb(135, 91, 168);
   --purple-100: rgb(23, 21, 24);
   --purple-5: rgb(239, 231, 246);
@@ -56,7 +57,7 @@
   --text-lg: 18px;
   --text-xl: 20px;
   --text-2xl: 24px;
-  --text-3xl: 32px;
+  --text-3xl: 42px;
 
   /* role-based tokens */
 
@@ -80,7 +81,8 @@
   --text-color-secondary: var(--grey-50);
   --text-color-inverted: var(--white);
   /* size */
-  --text-display: var(--text-2xl);
+  --text-display: var(--text-3xl);
+  --text-sub-display: var(--text-2xl);
   --text-prose: var(--text-md);
 
   /* input */

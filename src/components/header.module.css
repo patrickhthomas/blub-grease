@@ -4,6 +4,7 @@
   position: sticky;
   z-index: 1;
   top: 0;
+  margin-top: -96px;
 }
 
 .header {
@@ -13,7 +14,7 @@
   grid-template-columns: var(--size-input) 1fr min-content min-content;
   grid-template-areas: "logo nada searchButton cartButton" "navHeader navHeader navHeader navHeader";
   align-items: center;
-  background-color: var(--purple);
+  background-color: var(--purple-fade);
 }
 
 .header::after {
