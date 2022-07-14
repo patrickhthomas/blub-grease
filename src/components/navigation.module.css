@@ -5,6 +5,7 @@
   overflow-x: auto;
   white-space: nowrap;
   font-weight: var(--medium);
+  z-index: 10;
 }
 
 .navLink {

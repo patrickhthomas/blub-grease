@@ -2,16 +2,18 @@
   max-width: 400px;
   cursor: pointer;
   text-decoration: none;
-  padding: var(--space-md);
-  background-color: var(--white);
+  padding: var(--space-lg);
+  background-color: rgb(240, 238, 238);
   border-radius: var(--radius-md);
-  transition: all ease-out 100ms;
+  transition: all ease-in 200ms;
+  box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.306);
 }
 
 .productCardStyle:hover {
   transform: scale(1.05);
   box-shadow: var(--shadow-15);
-  border: .1em solid var(--purple-100);
+  background-color: rgb(247, 247, 251);
+  border: .2em solid rgb(157, 157, 157);
   border-radius: var(--radius-md);
   transition: all ease-in 200ms;
 }

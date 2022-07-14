@@ -2,9 +2,8 @@
   display: flex;
   align-items: center;
   position: sticky;
-  z-index: 1;
+  z-index: 10;
   top: 0;
-  margin-top: -116px;
 }
 
 .header {
@@ -14,7 +13,7 @@
   grid-template-columns: var(--size-input) 1fr min-content min-content;
   grid-template-areas: "logo nada searchButton cartButton" "navHeader navHeader navHeader navHeader";
   align-items: center;
-  background-color: var(--purple-fade);
+  background: linear-gradient(90deg, rgba(0,32,7,1) 0%, rgba(9,9,121,1) 46%, rgba(152,23,141,1) 74%, rgba(2,0,94,1) 100%);
 }
 
 .header::after {
@@ -33,18 +32,15 @@
   }
 }
 
-.logoCss {
-  display: flex;
-  grid-area: logo;
-  height: 100%;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+.logo {
   color: var(--white);
+  width: 24px;
 }
+
 
 .logo * path {
   fill: antiquewhite;
+  width: 32px;
 }
 
 .logo:hover {
