@@ -31,8 +31,7 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <div className={container}>
-      <h1 className={intro}>Blub Grease</h1>
-      <h1 className={subtitle}>Shirts and Things for people who like Bikes and Stuff</h1>
+      <h1 className={subtitle}>Art and Shirts and Stuff</h1>
       </div>
       <ProductListing products={data?.shopifyCollection?.products} />
     </Layout>
